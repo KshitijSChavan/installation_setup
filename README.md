@@ -34,6 +34,32 @@ python3 --version
 
 ## 3. Installing Required Python Packages
 
+---
+
+### Option A: Install All Packages Using Bash Script
+
+For a fully automated installation, you can use the bash script provided below.
+
+**Step 1:** Save the following script as `install_python_packages.sh`
+
+**Step 2:** Make it executable:
+```bash
+chmod +x install_python_packages.sh
+```
+
+**Step 3:** Run the script:
+```bash
+./install_python_packages.sh
+```
+
+**Download the bash script file "install_python_packages.sh" *(or see the script content in the repository)*
+
+The script will automatically install all packages without any prompts.
+
+---
+
+### Option B: Install All Packages Individually
+
 Due to updated Ubuntu policies, Python packages need to be installed via `apt` using the format:
 
 ```bash
